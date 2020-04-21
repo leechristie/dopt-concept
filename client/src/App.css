@@ -1,0 +1,17 @@
+.card-deck {
+
+    padding: 2em;
+
+}
+
+.btn {
+
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}

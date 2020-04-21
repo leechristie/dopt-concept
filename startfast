@@ -1,0 +1,2 @@
+#!/bin/sh
+ganache-cli --port 9545 -i 5777

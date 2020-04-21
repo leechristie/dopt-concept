@@ -1,0 +1,19 @@
+.readonly-textbox {
+    border: 1px solid silver;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.align-left {
+    text-align: left;
+}
+.align-right {
+    text-align: right;
+}
+.align-center {
+    text-align: center;
+}
+
+.size-big {
+    height: 6.2em;
+}

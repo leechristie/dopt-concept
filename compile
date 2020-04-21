@@ -1,0 +1,15 @@
+#!/bin/sh
+rm client/src/contracts/*.json -v
+if truffle compile --reset --all  ; then
+    if truffle migrate --reset --all ; then
+        if truffle test ; then
+            echo "Done"
+        else
+            echo "Unit Tests Failed"
+        fi
+    else
+        echo "Migration Failed"
+    fi
+else
+    echo "Compilation Failed"
+fi
